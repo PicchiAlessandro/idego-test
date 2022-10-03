@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: Checkers
   m_Shader: {fileID: -6465566751694194690, guid: 75792d2fef0bb4b4bb891fb2aa414e36,
     type: 3}
   m_ValidKeywords: []
