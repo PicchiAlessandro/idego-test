@@ -515,7 +515,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6109876274451976495}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1395067516
 SphereCollider:
@@ -708,7 +708,7 @@ GameObject:
   - component: {fileID: 1935067001}
   - component: {fileID: 1935067000}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Tavolo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1649,7 +1649,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6109876274113989066}
-  - {fileID: 6109876275935061438}
   - {fileID: 1395067515}
   m_Father: {fileID: 6109876275033291534}
   m_RootOrder: 2
@@ -1670,6 +1669,7 @@ Transform:
   - {fileID: 6109876275121893238}
   - {fileID: 6109876274451976495}
   - {fileID: 1935066999}
+  - {fileID: 6109876275935061438}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2728,8 +2728,8 @@ Transform:
   - {fileID: 6109876275599358304}
   - {fileID: 6109876274010299701}
   - {fileID: 6109876274265085725}
-  m_Father: {fileID: 6109876274451976495}
-  m_RootOrder: 1
+  m_Father: {fileID: 6109876275033291534}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6109876275935061439
 GameObject:
