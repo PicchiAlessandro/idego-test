@@ -20,7 +20,7 @@ public class ItemInteractorLHand : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Grabbable" && OVRInput.Get(OVRInput.Button.SecondaryHandTrigger) && OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
+        if (other.gameObject.tag == "Grabbable" && OVRInput.Get(OVRInput.Button.PrimaryHandTrigger) && OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
         {
             inHand = other.gameObject;
             Vector3 objPos = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
@@ -34,14 +34,4 @@ public class ItemInteractorLHand : MonoBehaviour
             inHand = null;
         }
     }
-    /*
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("TASTO TOCCATO!!!!");
-        if (other.gameObject.tag == "Button")
-        {
-            other.GetComponent<ButtonActivated>().Activation();
-        }
-    }
-    */
 }
