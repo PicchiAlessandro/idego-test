@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GMScript : MonoBehaviour
+public class ManagerScript : MonoBehaviour
 {
+    public float targetFps = 72.0f;
+
     void Start()
     {
-        OVRPlugin.systemDisplayFrequency = 72.0f;
+        OVRPlugin.systemDisplayFrequency = targetFps;
     }
 
 

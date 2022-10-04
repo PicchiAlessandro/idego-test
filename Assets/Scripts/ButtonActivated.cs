@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ButtonActivated : MonoBehaviour
 {
+    public GameObject target;
     public Material[] mats;
     public bool riattivabile;
     public bool stato;
@@ -22,6 +23,7 @@ public class ButtonActivated : MonoBehaviour
                 Debug.Log("BOTTONE ATTIVATO!!!");
                 stato = true;
                 gameObject.GetComponent<Renderer>().material = mats[1];
+                target.GetComponent<Attivabile>().attivato = true;
             }
             else if (riattivabile && stato)
             {
