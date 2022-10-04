@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LetterCheck : MonoBehaviour
 {
-    public Material[] mats;
+    //public Material[] mats; for test purposes
     public bool active;
 
     void Start()
@@ -20,7 +20,7 @@ public class LetterCheck : MonoBehaviour
     {
         if (other.gameObject.tag == "EyeTracker")
         {
-            gameObject.GetComponent<Renderer>().material = mats[1];
+            //gameObject.GetComponent<Renderer>().material = mats[1];
             active = true;
         }
     }
@@ -28,7 +28,7 @@ public class LetterCheck : MonoBehaviour
     {
         if (other.gameObject.tag == "EyeTracker")
         {
-            gameObject.GetComponent<Renderer>().material = mats[0];
+            //gameObject.GetComponent<Renderer>().material = mats[0];
             active = false;
         }
     }
